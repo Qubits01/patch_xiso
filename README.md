@@ -14,5 +14,5 @@ Python 3
 
 ## General usage
 ```
-patch_xiso <isofile>
+patch_xiso.py <isofile>
 ```
