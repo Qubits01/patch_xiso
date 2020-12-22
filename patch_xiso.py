@@ -40,7 +40,7 @@ def zeropadl0_and_unstealth(iso, xgd3):
     f.read(5)
     endoff = int.from_bytes(f.read(3), byteorder='big')
     pfi_sectors = endoff - startoff + 1
-    print(hex(pfi_sectors))
+    # print(hex(pfi_sectors))
     if pfi_sectors == 1:
       sys.exit('Error. Stealth Sectors probably already Zero-Padded. Cannot find L0 offset.')
     f.seek(pfi_sectors*0x800)
