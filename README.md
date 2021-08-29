@@ -12,12 +12,16 @@ In Detail, it has the following features:
 
 Missing features to be implemented (please use abgx for that)
 * Add/fix Video Partitions
-* fix AnyDVD style corruption
 * maybe more
 
 
 Planned feature that the latest abgx Version (1.0.6) does not support
 * add support for Wave 14+ games
+
+Unfixable Issues
+* AnyDVD style corruption
+* Tampered files (e.g. some Scene releases have modified xex files of Japanese titles)
+* maybe more
 
 ## Prerequisites
 Python 3
