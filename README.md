@@ -9,12 +9,14 @@ In Detail, it has the following features:
 * Fills the L0 Video padding with zeros (done by abgx360 at Starshadow's script)
 * Overwrites the stealth sectors with zeros (done by ppf patchfile at Starshadow's script)
 
+
 Missing features to be implemented (please use abgx for that)
 * Add/fix Video Partitions
 * fix AnyDVD style corruption
 * maybe more
 
-Planned feature that the latest abgx-Version does not support
+
+Planned feature that the latest abgx Version (1.0.6) does not support
 * add support for Wave 14+ games
 
 ## Prerequisites
