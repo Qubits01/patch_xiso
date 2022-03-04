@@ -16,7 +16,7 @@ Missing features to be implemented (please use abgx for that)
 
 
 Planned feature that the latest abgx Version (1.0.6) does not support
-* add support for Wave 14+ games
+* add support for adding/fixing video partitions of wave 14+ games
 
 Unfixable Issues
 * AnyDVD style corruption
