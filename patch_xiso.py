@@ -64,7 +64,7 @@ def fixfilesize(iso):
     goodsize = guesssize(realsize, validsizes)
     sizediff = goodsize-realsize
     if abs(sizediff) > 3803136:
-      print('Size difference too big. Probably invalid iso. Skipping')
+      sys.exit('Size difference too big. Probably invalid iso. Skipping')
       return
     if goodsize < realsize:
       print('\nOverdump. Trimming',-sizediff,'bytes...', end = '')
