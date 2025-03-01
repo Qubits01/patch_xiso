@@ -64,7 +64,7 @@ def fixfilesize(iso):
     goodsize = guesssize(realsize, validsizes)
     sizediff = goodsize-realsize
     if abs(sizediff) > 3803136:
-      sys.exit('Size difference too big. Probably invalid iso. Skipping')
+      sys.exit('Size difference too big. Invalid file or the video partition is missing. Use abgx to add the video partition.')
       return
     if goodsize < realsize:
       print('\nOverdump. Trimming',-sizediff,'bytes...', end = '')
