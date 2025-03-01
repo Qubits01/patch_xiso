@@ -42,7 +42,7 @@ def zeropadl0_and_unstealth(iso, xgd3):
     pfi_sectors = endoff - startoff + 1
     # print(hex(pfi_sectors))
     if pfi_sectors == 1:
-      sys.exit('Error. Stealth Sectors probably already Zero-Padded. Cannot find L0 offset.')
+      sys.exit('Error. No PFI info found. The ISO is probably already patched. If you are unsure, readd PFI info with abgx and rerun this script.')
     f.seek(pfi_sectors*0x800)
     padsize = video - pfi_sectors*0x800 #also zero stealth sectors
     #write chunks of 64 KB (32 sectors)
