@@ -12,7 +12,7 @@ In Detail, it has the following features:
 
 Missing features to be implemented (please use abgx for that)
 * Add/fix Video Partitions
-* readding pfi info to the iso
+* readding pfi info into the iso
 
 
 Planned feature that the latest abgx Version (1.0.6) does not support
